@@ -17,7 +17,7 @@ html, body {
 
 body {
   background-color: white;
-  font: 13.34px helvetica, arial, clean, sans-serif;
+  font: 13.34px arial,ËÎÌו,helvetica, clean, sans-serif;
   *font-size: small;
   text-align: center;
 }
@@ -73,6 +73,9 @@ ul.posts {
     font-family: Monaco, "Courier New", monospace;
     font-size: 80%;
   }
+
+#home ol.content{   margin-bottom: 2em;}
+#home ol.content li{margin:0 0 1em 2em; line-height: 1.75em;}
 
 /*****************************************************************************/
 /*
@@ -143,6 +146,7 @@ ul.posts {
       .site .footer .rss img {
         border: 0;
       }
+.home .ref{ color: #8085C1;}
 
 /*****************************************************************************/
 /*
